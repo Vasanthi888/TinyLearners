@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API = "http://localhost:5000/api/activity"
+const API = "https://tinylearners.onrender.com/api/activity"
 
 export const logActivity = async (data) => {
   try {
