@@ -7,7 +7,7 @@ const ParentSummary = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/summary/today")
+      .get("https://tinylearners.onrender.com/api/summary/today")
       .then((res) => setData(res.data))
       .catch((err) => console.log(err))
   }, [])
