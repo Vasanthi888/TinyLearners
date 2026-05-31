@@ -10,7 +10,7 @@ const Dashboard = () => {
 
   const fetchData = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/activity/dashboard")
+      const res = await axios.get("http://tinylearners.onrender.com/api/activity/dashboard")
       setData(res.data)
     } catch (err) {
       console.log("Dashboard error:", err)
